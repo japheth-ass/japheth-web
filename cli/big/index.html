@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Japheth | Developer Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- FontAwesome for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+
+<body class="dark-theme">
+
+    <!-- Navigation Header -->
+    <header class="navbar">
+        <div class="logo">
+            <a href="#home">JAPHETH<span>.dev</span></a>
+        </div>
+        <nav>
+            <ul class="nav-links">
+                <li><a href="#home" class="active">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+        <button id="theme-toggle" aria-label="Toggle Theme">
+            <i class="fa-solid fa-sun"></i>
+        </button>
+    </header>
+
+    <main>
+        <!-- Home / Hero Section -->
+        <section id="home" class="hero-section">
+            <div class="hero-content">
+                <span class="badge">Welcome to my Portfolio</span>
+                <h1>Hi, I'm <span class="highlight">Japheth</span></h1>
+                <p class="tagline">Aspiring Web Developer & Tech Enthusiast</p>
+                <p class="description">
+                    Building my path through code, creating clean user interfaces, and turning ideas into responsive
+                    digital web experiences.
+                </p>
+                <div class="hero-buttons">
+                    <a href="#projects" class="btn btn-primary">View Projects <i
+                            class="fa-solid fa-arrow-right"></i></a>
+                    <a href="#contact" class="btn btn-secondary">Get In Touch</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Me Section -->
+        <section id="about" class="section">
+            <div class="section-title">
+                <h2>About Me</h2>
+                <div class="underline"></div>
+            </div>
+            <div class="about-container">
+                <div class="about-card">
+                    <i class="fa-solid fa-graduation-cap card-icon"></i>
+                    <h3>My Learning Journey</h3>
+                    <p>
+                        My journey into software development started with curiosity about how web apps and digital
+                        platforms operate behind the scenes.
+                        I started with the core fundamentals of structured markup in <strong>HTML</strong>, styled
+                        modern layouts using <strong>CSS</strong>,
+                        and transitioned into logic, interactivity, and DOM manipulation with
+                        <strong>JavaScript</strong>.
+                    </p>
+                    <p>
+                        I am continuously strengthening my foundation by learning backend logic in
+                        <strong>Python</strong> and system concepts in <strong>C++</strong>, aiming to become a
+                        well-rounded full-stack developer.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section id="skills" class="section bg-alt">
+            <div class="section-title">
+                <h2>Skills & Technologies</h2>
+                <div class="underline"></div>
+            </div>
+            <div class="skills-grid">
+                <div class="skill-card">
+                    <i class="fa-brands fa-html5 skill-icon html"></i>
+                    <h3>HTML5</h3>
+                    <p>Semantic structure, accessibility, forms, and web standards.</p>
+                </div>
+                <div class="skill-card">
+                    <i class="fa-brands fa-css3-alt skill-icon css"></i>
+                    <h3>CSS3</h3>
+                    <p>Flexbox, CSS Grid, animations, and responsive design.</p>
+                </div>
+                <div class="skill-card">
+                    <i class="fa-brands fa-js skill-icon js"></i>
+                    <h3>JavaScript</h3>
+                    <p>ES6+ features, DOM manipulation, event handling, and APIs.</p>
+                </div>
+                <div class="skill-card">
+                    <i class="fa-brands fa-python skill-icon python"></i>
+                    <h3>Python</h3>
+                    <p>Basic scripting, data structures, and automation logic.</p>
+                </div>
+                <div class="skill-card">
+                    <i class="fa-solid fa-code skill-icon cpp"></i>
+                    <h3>C++</h3>
+                    <p>Fundamental programming concepts and logic structures.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects" class="section">
+            <div class="section-title">
+                <h2>Featured Projects</h2>
+                <div class="underline"></div>
+            </div>
+            <div class="projects-grid">
+
+                <div class="project-card">
+                    <div class="project-info">
+                        <div class="project-tags">
+                            <span>HTML</span>
+                            <span>CSS</span>
+                        </div>
+                        <h3>E-Commerce / Business Storefront</h3>
+                        <p>A responsive business landing page featuring a modern layout, hero banner, product display
+                            showcase, and custom responsive styling.</p>
+                        <div class="project-links">
+                            <a href="#" class="btn-link"><i class="fa-brands fa-github"></i> Code</a>
+                            <a href="#" class="btn-link"><i class="fa-solid fa-arrow-up-right-from-square"></i> Demo</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-info">
+                        <div class="project-tags">
+                            <span>HTML</span>
+                            <span>CSS</span>
+                            <span>JavaScript</span>
+                        </div>
+                        <h3>Interactive Developer Portfolio</h3>
+                        <p>A personalized portfolio website with dark/light mode toggles, smooth scroll navigation, and
+                            a dynamic contact form.</p>
+                        <div class="project-links">
+                            <a href="#" class="btn-link"><i class="fa-brands fa-github"></i> Code</a>
+                            <a href="#" class="btn-link"><i class="fa-solid fa-arrow-up-right-from-square"></i> Demo</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-info">
+                        <div class="project-tags">
+                            <span>Python</span>
+                            <span>Logic</span>
+                        </div>
+                        <h3>Console Utility Suite</h3>
+                        <p>A collection of algorithmic tools and command-line automation scripts built during my
+                            programming practice sessions.</p>
+                        <div class="project-links">
+                            <a href="#" class="btn-link"><i class="fa-brands fa-github"></i> Code</a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="section bg-alt">
+            <div class="section-title">
+                <h2>Contact Me</h2>
+                <div class="underline"></div>
+            </div>
+            <div class="contact-container">
+                <!-- Direct Contact Information Badges -->
+                <div class="contact-info-badges">
+                    <a href="mailto:Japhethassegid@Gmail.com" class="contact-badge">
+                        <i class="fa-solid fa-envelope"></i> Japhethassegid@Gmail.com
+                    </a>
+                    <a href="https://instagram.com/_itz.biggj" target="_blank" rel="noopener noreferrer"
+                        class="contact-badge">
+                        <i class="fa-brands fa-instagram"></i> @_itz.biggj
+                    </a>
+                </div>
+
+                <form id="contact-form" class="contact-form">
+                    <div class="form-group">
+                        <label for="name">Your Name</label>
+                        <input type="text" id="name" name="name" placeholder="Enter your full name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Your Email</label>
+                        <input type="email" id="email" name="email" placeholder="Enter your email address" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Your Message</label>
+                        <textarea id="message" name="message" rows="5" placeholder="Write your message here..."
+                            required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary btn-block">Send Message <i
+                            class="fa-solid fa-paper-plane"></i></button>
+                    <p id="form-status" class="form-status"></p>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2026 Japheth. Built with HTML, CSS, and JavaScript.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
